@@ -1,0 +1,18 @@
+{
+  "output_dir": "runs/d2-celebahq-rgb256-data-v1",
+  "data_dir": "data/celebahq256-v1",
+  "download_dir": ".cache/huggingface/hub",
+  "source": {
+    "repo_id": "liusq/CelebAMask-HQ",
+    "revision": "9cd422d28a64c1f5e7144f3a5a398b78bbb9ad11",
+    "filename": "CelebAMask-HQ.zip",
+    "sha256": "5dc46a36cba18d216b9a031902508b1398e7e4c545bbc9699bec32412c530ca6",
+    "image_directory": "CelebAMask-HQ/CelebA-HQ-img",
+    "attribute_file": "CelebAMask-HQ/CelebAMask-HQ-attribute-anno.txt",
+    "image_count": 30000
+  },
+  "resolution": 256,
+  "split_seed": 20261027,
+  "eval_count": 2000,
+  "max_images": null
+}
